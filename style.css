@@ -1,24 +1,30 @@
-html{
-   min-width: 200px;
+html {
+    min-width: 200px;
+    height: 100%;
+        padding-bottom: 0px;
 }
-body{
-    background-image:url(img/gplaypattern.png);
-  
+
+body {
+    background-image: url(img/gplaypattern.png);
+    height: 100%;
+
 }
+
 #top1 {
     height: 50px;
     background: #454646;
 }
+
 #head {
     width: 100%;
 }
 
 @media (max-width: 767px) {
- #head{
-     display: none;
-    
- }
+    #head {
+        display: none;
+    }
 }
+
 input[type="search"] {
     -webkit-appearance: textfield;
     background-image: url(img/search-icon.png);
@@ -31,52 +37,51 @@ input[type="search"] {
     padding-left: 28px;
     font-size: 14px;
     margin-left: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     height: 29px;
     width: 210px;
-    
 }
+
 #reg {
     padding-right: 30px;
 }
+
 #logo {
     width: 90px;
     margin-left: 10px;
     margin-top: px;
 }
+
 .spanreg {
     float: right;
     margin-top: 13px;
     margin-left: 30px;
 }
+
 .labelregister {
     color: white;
 }
 
-#body{
-     background-color: white;
-width: 800px;
-    
-     -webkit-box-shadow: 0px 4px 12px -2px rgba(82,82,82,1);
--moz-box-shadow: 0px 4px 12px -2px rgba(82,82,82,1);
-box-shadow: 0px 4px 12px -2px rgba(82,82,82,1);
-
-padding: 10px;
-}
-.gameimg{
-    width:100%;
-    
+#body {
+    background-color: white;
+    width: 800px;
+    -webkit-box-shadow: 0px 4px 12px -2px rgba(82, 82, 82, 1);
+    -moz-box-shadow: 0px 4px 12px -2px rgba(82, 82, 82, 1);
+    box-shadow: 0px 4px 12px -2px rgba(82, 82, 82, 1);
 }
 
-.col1
-{text-align: center;
-padding-top:30px;
- padding:10px;
-  
-}    
-footer{
-    background-color:#454646;
-    width:100%;
-    height:60px;
-   
+.gameimg {
+    width: 100%;
+}
+
+.col1 {
+    text-align: center;
+    padding-top: 30px;
+    padding: 10px;
+}
+
+footer {
+    display: inline-block;
+    background-color: #454646;    
+    height: 100%;
 }
